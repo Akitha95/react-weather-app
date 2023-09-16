@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-weather-app/static/css/main.4b0cf829.css",
+    "main.js": "/react-weather-app/static/js/main.add3becb.js",
+    "static/media/13d.svg": "/react-weather-app/static/media/13d.1ea9538953a0b6d8dd7b.svg",
+    "static/media/13n.svg": "/react-weather-app/static/media/13n.ba44d53a221f7c3101e2.svg",
+    "static/media/10d.svg": "/react-weather-app/static/media/10d.e4a41ecc1fbd5baa6227.svg",
+    "static/media/11d.svg": "/react-weather-app/static/media/11d.a53319db07e730226ea3.svg",
+    "static/media/09d.svg": "/react-weather-app/static/media/09d.c692a0fb28113a795719.svg",
+    "static/media/50d.svg": "/react-weather-app/static/media/50d.f023e464baadacc166ae.svg",
+    "static/media/02d.svg": "/react-weather-app/static/media/02d.81f5f6bda5defad4bb66.svg",
+    "static/media/03d.svg": "/react-weather-app/static/media/03d.352255a4fb47e3a26ef233716dfeabae.svg",
+    "static/media/04d.svg": "/react-weather-app/static/media/04d.24b9cb343d33bd1dc466.svg",
+    "static/media/10n.svg": "/react-weather-app/static/media/10n.337ee9f912294bf75f18.svg",
+    "static/media/11n.svg": "/react-weather-app/static/media/11n.1a4962c5cec9f5f14669.svg",
+    "static/media/09n.svg": "/react-weather-app/static/media/09n.7b9fc37fbe6ec192945b.svg",
+    "static/media/01d.svg": "/react-weather-app/static/media/01d.b0ac5f8cd6964247266e.svg",
+    "static/media/50n.svg": "/react-weather-app/static/media/50n.a3d8f160e8d35e93704b.svg",
+    "static/media/02n.svg": "/react-weather-app/static/media/02n.970bebe29938e93f7528.svg",
+    "static/media/03n.svg": "/react-weather-app/static/media/03n.77253769097da0ee32fc.svg",
+    "static/media/04n.svg": "/react-weather-app/static/media/04n.9a211ac66aaa4bb3a8be.svg",
+    "static/media/01n.svg": "/react-weather-app/static/media/01n.6ae8a593b1c57528b72d.svg",
+    "index.html": "/react-weather-app/index.html",
+    "main.4b0cf829.css.map": "/react-weather-app/static/css/main.4b0cf829.css.map",
+    "main.add3becb.js.map": "/react-weather-app/static/js/main.add3becb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b0cf829.css",
+    "static/js/main.add3becb.js"
+  ]
+}
