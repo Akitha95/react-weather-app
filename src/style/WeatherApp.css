@@ -1,0 +1,269 @@
+:root {
+  --gradient-color-1: #037ab1;
+  --gradient-color-2: rgb(16, 1, 104);
+}
+
+body {
+  min-height: 500px;
+}
+
+.container {
+  /* width: 607px; */
+  /* height: 829px; */
+  height: 80vh;
+  min-height: 500px;
+  /* min-width: 374px; */
+
+  margin: calc(10vh) calc(10vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: centere;
+
+  border-radius: 12px;
+  background-image: linear-gradient(
+    180deg,
+    var(--gradient-color-1) 0%,
+    var(--gradient-color-2) 100%
+  );
+
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.top-bar input {
+  display: flex;
+  width: 362px;
+  height: 50px;
+  background: #ebfffc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 40px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #ebfffc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.search-icon img {
+  background-image: 50px;
+  width: 25px;
+}
+
+.weather {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.weather-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-image {
+  margin-top: 29px;
+  display: flex;
+  justify-content: center;
+  scale: 1.5;
+  /* width: auto; */
+  transition: all 0.5s ease-in-out;
+}
+
+#weatherSVG,
+#weatherImg1 {
+  width: 180px;
+}
+
+.weather-des {
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+.weather-text {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-temp {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 100px;
+  font-weight: 400;
+}
+
+.weather-temp sup {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.weather-location {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.data-container {
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.element {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+}
+
+.data {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.icon {
+  margin-top: 10px;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 94vh;
+    /* overflow: hidden; */
+    justify-content: space-around;
+    margin: calc(3vh) calc(5vw);
+  }
+
+  .top-bar {
+    top: 0;
+    gap: 14px;
+    padding-top: 10px;
+  }
+
+  .top-bar input {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  .search-icon {
+    width: 40px;
+    height: 40px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .search-icon img {
+    width: 15px;
+  }
+
+  .weather {
+    margin: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .weather-image {
+    margin-top: 10px;
+    scale: 1.2;
+    margin-right: 20px;
+  }
+
+  #weatherSVG,
+  #weatherImg1 {
+    width: 120px;
+  }
+  .weather-des {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .weather-text {
+    margin-right: 10px;
+  }
+
+  .weather-temp {
+    font-size: 80px;
+    font-weight: 400;
+  }
+
+  .weather-temp sup {
+    font-size: 40px;
+    font-weight: 200;
+  }
+
+  .weather-location {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .data-container {
+    margin-top: 10px;
+    gap: 30px;
+  }
+
+  .element {
+    gap: 10px;
+  }
+
+  .data {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .text {
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .icon {
+    height: 30px;
+  }
+}
